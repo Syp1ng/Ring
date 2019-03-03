@@ -13,10 +13,5 @@ public class Application {
         for(RingsOfPrimes47 t:threadsArray){
             t.start();
         }
-
     }
-
-
-
-
 }

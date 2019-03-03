@@ -1,8 +1,6 @@
 import java.math.BigInteger;
 import java.util.ArrayList;
-
 public class RingsOfPrimes47 extends Thread {
-
     int start;
     int stop;
     int threadID;
@@ -10,13 +8,10 @@ public class RingsOfPrimes47 extends Thread {
     ArrayList<BigInteger> currentRing;
     ArrayList<Integer> primesPerRing;
     Integer ringNumber;
-
     public ArrayList<String> getResult() {
         return result;
     }
-
     ArrayList<String> result;
-
     public RingsOfPrimes47(int threadID, int start, int stop, int range){
         this.start= start;
         this.stop = stop;
